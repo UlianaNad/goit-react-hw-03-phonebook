@@ -8,6 +8,8 @@ export class AddContactForm extends React.Component {
     number: '',
   };
 
+ 
+
   handleChangeInput = ({ target }) => {
     const { name, value } = target;
     this.setState({ [name]: value });
